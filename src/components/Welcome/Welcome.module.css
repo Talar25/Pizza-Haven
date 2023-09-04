@@ -1,0 +1,109 @@
+.welcomeHp {
+  background-color: rgba(0, 0, 0, 0.301);
+  color: var(--primary-color);
+  font-size: calc(var(--medium-font) * 1.4);
+  width: 50rem;
+  padding: 0.5rem 1.2rem 1.5rem;
+
+  position: absolute;
+  top: 49%;
+  left: 7%;
+}
+
+.welcomeHp h1 {
+  font-weight: 800;
+  margin-bottom: 1.8rem;
+}
+
+.welcomeHp p {
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+}
+
+.welcome__sectionHp {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.3),
+      rgba(36, 42, 46, 0.3)
+    ),
+    url("../../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.welcome__sectionMenu {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.5),
+      rgba(36, 42, 46, 0.3)
+    ),
+    url("../../assets/menu-bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.welcome__sectionContact {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.5),
+      rgba(36, 42, 46, 0.3)
+    ),
+    url("../../assets/contact-bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+.welcome__sectionCareers {
+  height: 60vh;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.1),
+      rgba(36, 42, 46, 0.4)
+    ),
+    url("../../assets/career-bg.jpg");
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+}
+
+.welcomeMenu {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--primary-color-lighter);
+}
+
+.welcomeContact {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--primary-color-lighter);
+}
+
+.welcomeMenu h1 {
+  font-size: var(--very-large-font);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.welcomeContact h1 {
+  font-size: var(--very-large-font);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.welcomeMenu p {
+  font-size: var(--big-font);
+  color: var(--primary-color);
+}

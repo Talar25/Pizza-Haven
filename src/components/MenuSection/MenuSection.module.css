@@ -1,0 +1,82 @@
+.menuSection {
+  min-height: 130vh;
+  background-image: url("../../assets/menuSection-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.link {
+  height: 225px;
+
+  font-size: var(--large-font);
+  text-decoration: none;
+  color: var(--primary-color-lighter);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  transition: 0.3s all;
+}
+
+.link .box {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links .link:global(.active) {
+  /* border-bottom: 12px solid var(--primary-color); */
+
+  transform: translateY(-3%);
+  box-shadow: 5px 5px 30px black;
+}
+
+.link .pizzas {
+  background-image: linear-gradient(
+      rgba(93, 94, 95, 0.6),
+      rgba(181, 184, 185, 0.6)
+    ),
+    url("../../assets/pizzas-link.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.link .pastas {
+  background-image: linear-gradient(
+      rgba(93, 94, 95, 0.6),
+      rgba(181, 184, 185, 0.6)
+    ),
+    url("../../assets/pastas-link.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.link .drinks {
+  background-image: linear-gradient(
+      rgba(93, 94, 95, 0.6),
+      rgba(181, 184, 185, 0.6)
+    ),
+    url("../../assets/drinks-link.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.link .desserts {
+  background-image: linear-gradient(
+      rgba(93, 94, 95, 0.6),
+      rgba(181, 184, 185, 0.6)
+    ),
+    url("../../assets/desserts-link.jpg");
+  background-size: cover;
+  background-position: bottom;
+}

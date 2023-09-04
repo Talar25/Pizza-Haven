@@ -1,0 +1,22 @@
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageNotFound {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.btn {
+  font-weight: 600;
+  background: none;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  text-transform: uppercase;
+}

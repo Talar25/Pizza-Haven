@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap");
+
+:root {
+  /* primary color */
+  --primary-color-darker: #939393;
+  --primary-color-dark: #c4c4c4;
+  --primary-color: #f5f5f5;
+  --primary-color-light: #f7f7f7;
+  --primary-color-lighter: #f9f9f9;
+
+  /* secondary colors */
+  --secondary-color-darker: #1d2b38;
+  --secondary-color-dark: #26394b;
+  --secondary-color: #30475e;
+  --secondary-color-light: #596c7e;
+  --secondary-color-lighter: #83919e;
+
+  --secondary-color-background: rgba(235, 243, 248, 0.708);
+
+  --third-color-dark: #ff4d00;
+  --third-color: #ff7133;
+  --third-color-light: #ff9466;
+
+  --white-like-color: #eeeeee;
+  --black-like-color: #222831;
+
+  --black-color: #000;
+  --white-color: #fff;
+  --red-color-light: #b14141;
+  --red-color: #f05454;
+  --red-color-dark: #7e0e0e;
+  --green-color-dark: #50b4b0;
+  --green-color: #24a19c;
+  --green-color-light: #1d817d;
+
+  /* fonts */
+  --small-font: 1rem;
+  --regular-font: 1.4rem;
+  --medium-font: 1.9rem;
+  --big-font: 2.8rem;
+  --large-font: 3.9rem;
+  --very-large-font: 5.65rem;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+
+  /* overflow-y: hidden; */
+  height: 100vh;
+  background-color: var(--primary-color-light);
+  color: var(--secondary-color-darker);
+  position: relative;
+}

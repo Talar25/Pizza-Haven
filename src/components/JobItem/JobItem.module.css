@@ -1,0 +1,27 @@
+.jobItem {
+  font-size: var(--medium-font);
+  line-height: 1.3;
+
+  text-align: center;
+}
+
+.jobItem h4 {
+  margin: 4rem 0;
+  color: var(--secondary-color-light);
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--secondary-color-dark);
+}
+
+.jobItem span {
+  margin-bottom: 3rem;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.jobItem p {
+  margin-bottom: 5rem;
+}
+
+.jobItem p:last-of-type {
+  margin-bottom: 10rem;
+}

@@ -1,0 +1,40 @@
+.contactInfo {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  background-color: var(--primary-color-light);
+  width: 21%;
+  height: 100%;
+  z-index: 999;
+  border-left: 15px solid var(--third-color-light);
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.box {
+  font-size: calc(var(--medium-font) * 0.8);
+  color: var(--secondary-color);
+}
+
+.box h3 {
+  font-size: var(--big-font);
+  color: var(--third-color);
+  font-weight: 800;
+
+  margin: 3rem 0 2rem;
+}
+.box span {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+
+.number {
+  margin-top: 1.2rem;
+}

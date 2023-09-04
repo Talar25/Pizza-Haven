@@ -1,0 +1,21 @@
+.jobs {
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80rem;
+  padding-top: 10rem;
+}
+
+.wrapper h3 {
+  font-size: var(--big-font);
+  color: var(--secondary-color);
+  text-align: center;
+  padding-bottom: 1rem;
+
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}

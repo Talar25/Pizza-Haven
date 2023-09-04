@@ -1,0 +1,72 @@
+.homepage {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 112, 51, 0.522),
+      rgba(36, 42, 46, 0.4)
+    ),
+    url("../../assets/banner-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 112, 51, 0.422),
+      rgba(36, 42, 46, 0.6)
+    ),
+    url("../../assets/reservations-banner.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.banner {
+  height: 500px;
+
+  position: relative;
+
+  /* text-transform: uppercase; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner h3,
+.banner span {
+  text-align: center;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.banner h3 {
+  /* width: 1000px; */
+
+  color: var(--primary-color);
+  font-size: var(--very-large-font);
+  margin-bottom: 1rem;
+}
+
+.banner span {
+  color: var(--primary-color-dark);
+  font-size: var(--big-font);
+}
+
+.banner .btn {
+  display: inline-block;
+  margin-top: 5rem;
+  color: var(--third-color-dark);
+  font-weight: 800;
+  border-bottom: 2px solid var(--primary-color);
+
+  transition: 0.3s all;
+}
+
+.banner .btn:hover {
+  color: var(--primary-color-light);
+}
+
+.banner .btn:active {
+  color: var(--primary-color-dark);
+}

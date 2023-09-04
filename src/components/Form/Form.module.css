@@ -1,0 +1,88 @@
+.sectionForm {
+  min-height: 80vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.667),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../contact-form-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.formDescription {
+  width: 50%;
+}
+
+.formDescription h3 {
+  font-size: var(--big-font);
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--third-color);
+  display: inline-block;
+}
+
+.formDescription p {
+  font-size: var(--medium-font);
+  line-height: 1.3;
+  color: var(--secondary-color-dark);
+  /* width: 60%; */
+}
+
+.wrapper {
+  width: 120rem;
+  margin: 0rem auto;
+  padding-top: 10rem;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 20rem;
+}
+
+.form {
+  font-size: var(--medium-font);
+  color: var(--secondary-color);
+}
+
+.form input,
+.form textarea {
+  border: 1px solid var(--secondary-color-lighter);
+  color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border: 1px solid var(--secondary-color-lighter);
+  color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.form input,
+.form textarea {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.formContainer {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.formContainer div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0px;
+  justify-content: end;
+}

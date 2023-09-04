@@ -1,0 +1,13 @@
+.section {
+  min-height: 50rem;
+}
+
+.mapContainer {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.map {
+  height: 100%;
+}
